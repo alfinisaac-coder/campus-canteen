@@ -47,3 +47,6 @@ Preparing
 Ready
    ↓
 Completed
+## 🏗️ System Architecture
+
+![Campus Canteen Architecture Diagram](architecture-diagram.png)
