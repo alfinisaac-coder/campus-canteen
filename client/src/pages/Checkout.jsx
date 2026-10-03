@@ -101,7 +101,7 @@ function Checkout({ cart, setCart }) {
             // =========================
 
             const response = await fetch(
-                "http://localhost:5000/api/orders",
+                "https://campus-canteen-c6u1.onrender.com/api/orders",
                 {
                     method: "POST",
 

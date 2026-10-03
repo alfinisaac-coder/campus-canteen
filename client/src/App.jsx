@@ -34,7 +34,7 @@ function App() {
 
     useEffect(() => {
 
-        fetch("http://localhost:5000/api/foods")
+        fetch("https://campus-canteen-c6u1.onrender.com/api/foods")
 
             .then((response) => {
 

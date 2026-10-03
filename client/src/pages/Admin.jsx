@@ -26,7 +26,7 @@ function Admin() {
         try {
 
             const response = await axios.get(
-                "http://localhost:5000/api/foods"
+                "https://campus-canteen-c6u1.onrender.com/api/foods"
             );
 
             setFoods(response.data);
@@ -45,7 +45,7 @@ function Admin() {
         try {
 
             const response = await axios.get(
-                "http://localhost:5000/api/orders"
+                "https://campus-canteen-c6u1.onrender.com/api/orders"
             );
 
             setOrders(response.data);
@@ -67,7 +67,7 @@ function Admin() {
         try {
 
             await axios.post(
-                "http://localhost:5000/api/foods",
+                "https://campus-canteen-c6u1.onrender.com/api/foods",
                 {
                     name: name,
                     description: description,
@@ -102,7 +102,7 @@ function Admin() {
         try {
 
             await axios.delete(
-                `http://localhost:5000/api/foods/${id}`
+                `https://campus-canteen-c6u1.onrender.com/api/foods/${id}`
             );
 
             alert("Food deleted");
@@ -126,7 +126,7 @@ function Admin() {
         try {
 
             await axios.put(
-                `http://localhost:5000/api/orders/${id}`,
+                `https://campus-canteen-c6u1.onrender.com/api/orders/${id}`,
                 {
                     status: status
                 }

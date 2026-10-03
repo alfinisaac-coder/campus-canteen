@@ -33,7 +33,7 @@ function Orders() {
 
 
             const response = await fetch(
-                `http://localhost:5000/api/orders/customer?email=${encodeURIComponent(
+                `https://campus-canteen-c6u1.onrender.com/api/orders/customer?email=${encodeURIComponent(
                     email.trim()
                 )}`
             );
